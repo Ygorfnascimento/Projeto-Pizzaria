@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    width: 5%;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+header a:hover {
+    color: red;
+    transition: ease 0.4s;
+}
+
+body {
+    background: url('/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #fff;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 2rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: 500;
+    font-size: larger;
+}
+
+input,
+textarea {
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+input,
+textarea,
+select {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button {
+    padding: 7px;
+    min-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    font-size: large;
+}
+
+button:hover {
+    background-color: red;
+    transition: ease 0.3s;
+}
+
+/* Responsividade */
+
+@media (max-width: 1200px) {
+    header img {
+        display: none;
+    }
+}
+
+@media (max-width: 275px) {
+    .main {
+        width: 90%;
+        left: 5%;
+        transform: none;
+        padding: 10px;
+    }
+}
