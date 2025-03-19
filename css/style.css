@@ -31,7 +31,7 @@ header a:hover {
 }
 
 body {
-    background: url('/img/background.jpg');
+    background: url('https://raw.githubusercontent.com/ygorfnascimento/kkk/main/img/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
