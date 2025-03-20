@@ -89,10 +89,15 @@ button:hover {
 }
 
 /* Responsividade */
-
 @media (max-width: 3000px) {
     .main {
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .main {
+        margin-top: 60px;
     }
 }
 
@@ -102,15 +107,83 @@ button:hover {
     }
 }
 
+@media (width: 1024px) {
+    .main {
+        margin-top: 200px;
+    }
+}
+
 @media (width: 1024px) and (height: 600px) {
     .main {
         margin-top: -35px;
     }
 }
 
-@media (width: 375px) and (height: 667px) {
+@media (width: 912px) {
+    .main {
+        margin-top: 200px;
+    }
+}
+
+@media (width: 853px) {
+    .main {
+        margin-top: 200px;
+    }
+}
+
+@media (width: 768px) {
+    .main {
+        width: 100%;
+        margin-top: 135px;
+    }
+}
+
+@media (width: 820px) {
+    .main {
+        width: 100%;
+        margin-top: 175px;
+    }
+}
+
+@media (width: 540px) {
+    .main {
+        margin-top: 35px;
+    }
+}
+
+@media (width: 414px) {
+    .main {
+        margin-top: 85px;
+    }
+}
+
+@media (width: 412px) {
+    .main {
+        margin-top: 105px;
+    }
+}
+
+@media (width: 430px) {
+    .main {
+        margin-top: 105px;
+    }
+}
+
+@media (width: 390px) {
+    .main {
+        margin-top: 65px;
+    }
+}
+
+@media (width: 375px) {
     .main {
         margin-top: -15px;
+    }
+}
+
+@media (width: 344px) {
+    .main {
+        margin-top: 85px;
     }
 }
 
