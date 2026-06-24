@@ -1,40 +1,37 @@
-<h1 align="center">🍕 Projeto Pizzaria</h1>
+# 🍕 Projeto: Pizzaria Web
 
-<p align="center">
-Projeto front-end com telas de cadastro desenvolvidas para uma pizzaria.
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/status-concluído-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/frontend-HTML%20%7C%20CSS-blue?style=for-the-badge" />
-</p>
+Este repositório contém o desenvolvimento do Front-end estrutural de uma plataforma web voltada para uma pizzaria. O projeto foca na criação de interfaces amigáveis, organização visual de formulários e estilização consistente para otimizar a experiência do usuário e do administrador.
 
 ---
 
-## 💻 Sobre o projeto
+## 🎯 Objetivo
 
-Desenvolvimento de **duas telas de cadastro** para uma pizzaria:  
-- uma voltada ao **cadastro de clientes**  
-- outra ao **cadastro de pizzas**
+Praticar e consolidar fundamentos essenciais do desenvolvimento Front-end, explorando:
 
-O projeto tem como foco a **estruturação de formulários**, **organização visual** e **estilização com CSS**.
-
----
-
-## 🛠 Tecnologias utilizadas
-
-- **HTML5**
-- **CSS3**
+* Estruturação semântica e limpa utilizando **HTML5**
+* Estilização avançada, posicionamento e layout com **CSS3**
+* Criação de formulários organizados e validados nativamente para captura de dados
+* Design responsivo com o uso de *media queries* para adaptação em múltiplos tamanhos de tela (mobile e desktop)
 
 ---
 
-## 🚀 Como visualizar o projeto
+## 📂 Organização do Repositório
 
-### Acesso remoto
-Acesse a versão hospedada no GitHub Pages, sem necessidade de instalação.
+O projeto é composto por telas específicas e folhas de estilo modulares:
 
-👉 https://ygorfnascimento.github.io/Projeto-Pizzaria/
+* **`index.html`:** Tela dedicada ao **Cadastro de Clientes**, focando na coleta estruturada de dados pessoais e de entrega.
+* **`cardapio.html`:** Tela dedicada ao **Cadastro de Pizzas**, permitindo a inclusão de informações técnicas como códigos, sabores e preços.
+* **`/css`:** Pasta contendo a estilização modular do sistema:
+  * `style.css`: Estilos globais e identidade visual da página de clientes.
+  * `cardapio.css`: Layout e alinhamento específico para a página de gerenciamento de pizzas.
+* **`/img`:** Recursos visuais, logotipos e favicons personalizados que compõem a interface do site.
 
-### Execução local
-Clone o repositório para visualizar e editar o projeto localmente.
-```bash
-git clone https://github.com/Ygorfnascimento/Projeto-Pizzaria.git
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Estruturação:** HTML5
+* **Estilização:** CSS3
+* **Tipografia:** Google Fonts (Fonts: Poppins, Montserrat)
+
+---
